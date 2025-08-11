@@ -1,10 +1,11 @@
 {
     "title":"AzureZee's Blog",
     "subTitle":"喵爪敲键不成章，bug堆来当猫粮。",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
+    "avatarUrl":"https://azurezee.github.io/avatar.svg",
     "GMEEK_VERSION":"last",
     "i18n":"CN",
     "UTC":8,
+    "startSite":"07/15/2025",
     "bottomText":"❤️🐾 转载文章请注明出处喵，谢谢喵！🐾❤️",
     "commentLabelColor":"#006b75",
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
