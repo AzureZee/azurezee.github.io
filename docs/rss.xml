@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AzureZee's Blog</title><link>https://azurezee.github.io</link><description>喵爪敲键不成章，bug堆来当猫粮。</description><copyright>AzureZee's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://azurezee.github.io/avatar.svg</url><title>avatar</title><link>https://azurezee.github.io</link></image><lastBuildDate>Tue, 28 Apr 2026 17:44:59 +0000</lastBuildDate><managingEditor>AzureZee's Blog</managingEditor><ttl>60</ttl><webMaster>AzureZee's Blog</webMaster><item><title>配置AndroidStudio的Gradle构建依赖的镜像</title><link>https://azurezee.github.io/post/pei-zhi-AndroidStudio-de-Gradle-gou-jian-yi-lai-de-jing-xiang.html</link><description># 1.项目级配置
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AzureZee's Blog</title><link>https://azurezee.github.io</link><description>喵爪敲键不成章，bug堆来当猫粮。</description><copyright>AzureZee's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://azurezee.github.io/avatar.svg</url><title>avatar</title><link>https://azurezee.github.io</link></image><lastBuildDate>Fri, 22 May 2026 23:59:42 +0000</lastBuildDate><managingEditor>AzureZee's Blog</managingEditor><ttl>60</ttl><webMaster>AzureZee's Blog</webMaster><item><title>修复 Windows 终端中 git bash 闪烁问题</title><link>https://azurezee.github.io/post/xiu-fu-%20Windows%20-zhong-duan-zhong-%20git%20bash%20-shan-shuo-wen-ti.html</link><description>只需在`~/.bashrc` 添加一行代码
+
+```bash
+bind 'set bell-style none'
+```
+https://github.com/microsoft/terminal/issues/7200#issuecomment-2339469373
+
+如果你不知道这个问题有多么操蛋, 无需多言, 感受一下闪光弹的威力
+
+https://github.com/user-attachments/assets/a266b2ab-bb3b-4ba5-8a11-20e4c269496b。</description><guid isPermaLink="true">https://azurezee.github.io/post/xiu-fu-%20Windows%20-zhong-duan-zhong-%20git%20bash%20-shan-shuo-wen-ti.html</guid><pubDate>Fri, 22 May 2026 23:59:16 +0000</pubDate></item><item><title>配置AndroidStudio的Gradle构建依赖的镜像</title><link>https://azurezee.github.io/post/pei-zhi-AndroidStudio-de-Gradle-gou-jian-yi-lai-de-jing-xiang.html</link><description># 1.项目级配置
 ### 1.1 创建一个`gradle-mirror.ps1`文件,粘贴以下代码:
 ```pwsh
 param(
